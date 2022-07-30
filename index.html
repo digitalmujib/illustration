@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <div class="">
+        <ul class="ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Rent Car</li>
+        </ul>
+    </div> -->
+    <!-- <div class="box-shadow"></div> -->
+
+    <!-- <div class="overflow">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, sint autem ipsam neque facere maiores dignissimos nesciunt doloremque facilis numquam debitis eligendi fugiat minus voluptatibus inventore totam mollitia explicabo.</p>
+
+    </div>-->
+
+    <!-- <div class="animations">
+        <div class="box"></div>
+    </div> -->
+
+    <nav>
+        <div>
+            <img class="brand-logo" src="./glow-3.png" alt="brand-logo">
+        </div>
+
+        <div class="nav-links-container">
+            <img src="./menu.png" class="menu-icon">
+            <img src="./remove.png" class="remove-icon">
+            <div class="nav-links">
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Contact</p>
+                <p>Login</p>
+            </div>
+            </img>
+        </div>
+
+
+    </nav>
+
+    <div class="color-container">
+        <div class="color-split">
+
+        </div>
+        
+        <img class="illustration-img" src="./i1.png" alt="">
+
+    </div>
+
+</body>
+
+<script>
+
+    const showMenu = document.querySelector(".menu-icon");
+    const showCross = document.querySelector(".remove-icon");
+    const navLink = document.querySelector(".nav-links");
+
+
+
+    showMenu.addEventListener('click', ()=> {
+        showMenu.style.display = "none"
+        showCross.style.display = "block"
+        navLink.style.right = "-60px"
+    })
+
+    showCross.addEventListener('click', ()=> {
+        showCross.style.display = "none"
+        showMenu.style.display = "block"
+        navLink.style.right = "-260px"
+    })
+
+</script>
+
+</html>
